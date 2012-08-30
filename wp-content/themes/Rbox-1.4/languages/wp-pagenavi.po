@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: Rbox/includes/wp-pagenavi.php:1
+msgid "&laquo;"
+msgstr ""
+
+#. Text in function
+#: Rbox/includes/wp-pagenavi.php:1
+msgid "&laquo; First"
+msgstr ""
+
+#. Text in function
+#: Rbox/includes/wp-pagenavi.php:1
+msgid "&raquo;"
+msgstr ""
+
+#. Text in function
+#: Rbox/includes/wp-pagenavi.php:1
+msgid "..."
+msgstr ""
+
+#. Text in function
+#: Rbox/includes/wp-pagenavi.php:1
+msgid "Last &raquo;"
+msgstr ""
+
+#. Text in function
+#: Rbox/includes/wp-pagenavi.php:1
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#. Text in function
+#: Rbox/includes/wp-pagenavi.php:1
+msgid "PageNavi"
+msgstr ""

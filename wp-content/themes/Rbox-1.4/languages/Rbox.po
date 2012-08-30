@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: Rbox/single.php:41
+#: Rbox/loop.php:50
+msgid ""
+msgstr ""
+
+#. Text in function
+#: Rbox/single.php:31
+#: Rbox/loop.php:23
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: Rbox/functions.php:72
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: Rbox/functions.php:64
+msgid "%s"
+msgstr ""
+
+#. Text in function
+#: Rbox/loop.php:73
+msgid "&larr; Older posts"
+msgstr ""
+
+#. Text in function
+#: Rbox/functions.php:74
+#: Rbox/functions.php:91
+msgid "(Edit)"
+msgstr ""
+
+#. Text in function
+#: Rbox/single.php:31
+#: Rbox/loop.php:23
+msgid "1 Comment"
+msgstr ""
+
+#. Text in function
+#: Rbox/comments.php:55
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#. Text in echo
+#: Rbox/loop.php:4
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#. Text in echo
+#: Rbox/comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: Rbox/footer.php:22
+msgid "Copyright"
+msgstr ""
+
+#. Text in echo
+#: Rbox/footer.php:24
+msgid "Follow us:"
+msgstr ""
+
+#. Text in echo
+#: Rbox/header-slider.php:217
+msgid "Learn More"
+msgstr ""
+
+#. Text in function
+#: Rbox/single.php:31
+#: Rbox/loop.php:23
+msgid "Leave a comment"
+msgstr ""
+
+#. Text in function
+#: Rbox/comments.php:56
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Text in function
+#: Rbox/loop.php:74
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#. Text in echo
+#: Rbox/loop.php:3
+msgid "Not Found"
+msgstr ""
+
+#. Text in echo
+#: Rbox/search.php:29
+msgid "Nothing Found"
+msgstr ""
+
+#. Text in function
+#: Rbox/single.php:43
+#: Rbox/fullwidth.php:25
+#: Rbox/loop.php:52
+#: Rbox/page.php:27
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: Rbox/loop.php:17
+msgid "Permalink to %s"
+msgstr ""
+
+#. Text in echo
+#: Rbox/functions.php:91
+msgid "Pingback:"
+msgstr ""
+
+#. Text in echo
+#: Rbox/footer.php:22
+msgid "Powered by"
+msgstr ""
+
+#. Text in function
+#: Rbox/functions.php:53
+msgid "Primary Navigation"
+msgstr ""
+
+#. Text in echo
+#: Rbox/home.php:90
+#: Rbox/loop.php:57
+msgid "Read More"
+msgstr ""
+
+#. Text in function
+#: Rbox/search.php:7
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Text in echo
+#: Rbox/search.php:33
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#. Text in echo
+#: Rbox/comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#. Text in echo
+#: Rbox/functions.php:67
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in echo
+#: Rbox/searchform.php:7
+msgid "search this site"
+msgstr ""

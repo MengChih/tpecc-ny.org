@@ -1,0 +1,8 @@
+*** Rbox Changelog ***
+
+28-1-2012 - version 1.5
+ * header-slider.php, header-nivoslidedown.php and header-nivofadein.php changed.
+ * template-blog.php added. Blog is now a page and not a category.
+ * Blog page option added in options panel to exclude categories.
+ * timthumb file updated.
+ * You can now add custom link to the slider image.

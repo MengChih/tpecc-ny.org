@@ -1,0 +1,156 @@
+/*
+ * jQuery Nivo Slider v2.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2010, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+/* The slices in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.6; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:89;
+	display: none;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:99;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	text-indent: -9999px;
+	left: 0;
+	position:relative;
+	display: block;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-left: 20px;
+	background:url(arrow_previous2.png) no-repeat;
+}
+
+.nivo-nextNav {
+	text-indent: -9999px;
+	right: 0;
+	position:relative;
+	display: block;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 20px;
+	background:url(arrow_next2.png) no-repeat;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav  {position: relative;}
+
+.nivo-controlNav a {
+	text-indent: -9999px;
+	position:relative;
+	display: block;
+	z-index:99;
+	cursor:pointer;
+	top: 364px;
+	left: 0;
+	margin-right: 10px;
+	float: left;
+	width: 11px;
+	height: 11px;
+	background:url(bullets_singleb.png) no-repeat;
+}
+.nivo-controlNav a.active {
+background-position: -12px 0px; position: relative
+}
+
+
+/* Additional APSA Edits */
+
+#slider {
+		position:relative;
+		/* See the "style-pack" below for image */
+		background:url(loading.gif) no-repeat 50% 50%; 
+		height: 403px;
+		width: 715px;
+		background-color: #f2f2f2;
+		margin-bottom: 25px;
+	}
+	.frontpage #slider {width: 960px; height: 362px; margin-bottom: 40px;}
+	
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+
+/* News & Media Page Edits */
+
+
+.home .nivo-directionNav a {top: 86%;}
+
+.home .nivo-controlNav  {top: -25px;}
+
+.page .nivo-caption, .single-nomsarchive .nivo-caption {background: none;}
+
+
+.page-id-17 .nivo-caption {padding-top: 10px;}
+.page-id-17 .nivo-controlNav  {top: 55px;}
+.page-id-17 .nivo-controlNav a {background:url(bullets_media_single.png) no-repeat !important;}
+.page-id-17 .nivo-controlNav a.active {
+background-position: -12px 0p !important;
+}
+
+.nivoSlider a.nivo-imageLink {z-index: 99;} /* So as to not have the dots block the hyperlink */
+
+.home .nivoSlider a.nivo-imageLink {height: 340px;}

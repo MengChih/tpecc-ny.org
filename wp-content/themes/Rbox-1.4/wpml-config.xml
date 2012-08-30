@@ -1,0 +1,9 @@
+<wpml-config>   
+    <admin-texts>
+         <key name="tm_head_01" />
+        <key name="tm_box_01" />
+		<key name="tm_box_02" />
+		<key name="tm_box_03" />
+		<key name="tm_box_04" />
+    </admin-texts> 
+</wpml-config>
